@@ -32,7 +32,7 @@ class BankAccount {
    
     public double getBalance() {
        
-        if( balance <1000)
+        if( balance<1000)
         {
         try
         {   
