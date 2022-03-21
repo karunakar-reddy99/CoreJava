@@ -4,7 +4,7 @@ public class Student
 {
      int roll,age;
      String name,course;
-     Student()
+     Student() 
      {
           roll=0;
           name=null;
@@ -24,7 +24,7 @@ public class Student
                if(ch<'A' || ch>'Z' && ch<'a' || ch>'z')
                     temp=1;
           }
-          /*———-Checking Name——————–*/
+          /*â€”â€”â€”-Checking Nameâ€”â€”â€”â€”â€”â€”â€“*/
           try
           {
                if(temp==1)
@@ -36,7 +36,7 @@ public class Student
           {
                System.out.println(e2);
           }
-          /*———-Checking Age——————–*/
+          /*â€”â€”â€”-Checking Ageâ€”â€”â€”â€”â€”â€”â€“*/
           try
           {
                if(a>=15 && a<=21)
