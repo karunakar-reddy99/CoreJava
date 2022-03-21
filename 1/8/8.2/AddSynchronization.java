@@ -32,7 +32,7 @@ class Counter implements Runnable {
 				st.setValue(i);
 				st.setPrinted(false);
 				st.notify();
-			}
+			} 
 		}
 	}
 
