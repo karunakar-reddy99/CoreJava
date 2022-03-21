@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Even {
 
 	public static void main(String[] args) {
-		int n;
+		int n; 
 		Scanner scan = new Scanner(System.in);
 				n=scan.nextInt();
 				for(int i=1;i<=n;i++)
